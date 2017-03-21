@@ -1,0 +1,6 @@
+{% for sect in site.section %}{% if sect.categories contains 'intro' %}
+<h2 class="major">{{ sect.title }}</h2>
+<span class="image main"><img src="images/pic01.jpg" alt="" /></span><p>
+    {{ sect.content }}
+    {% endif %}{% endfor %}
+    </p>

@@ -1,0 +1,26 @@
+<h2 class="major">Contacto</h2>
+<form method="post" action="https://formspree.io/{{ site.email }}">
+    <div class="field half first">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" />
+    </div>
+    <div class="field half">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+    </div>
+    <div class="field">
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" rows="4"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="Enviar" class="special" /></li>
+        <li><input type="reset" value="Reset" /></li>
+    </ul>
+</form>
+<ul class="icons">
+    {% if site.twitter_username %}
+    <li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>{% endif %} {% if site.facebook_username %}
+    <li><a href="https://facebook.com/{{ site.facebook_username }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>{% endif %} {% if site.instagram_username %}
+    <li><a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>{% endif %} {% if site.github_username %}
+    <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>{% endif %}
+</ul>
