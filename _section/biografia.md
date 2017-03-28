@@ -1,6 +1,6 @@
 ---
 title: "Biografia"
-categories: aboutt
+categories: about
 ---
 ## Relleno agregado
 
