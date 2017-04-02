@@ -31,10 +31,8 @@ webmaster: http://productions.github.io
 flickr:
   key: 7a25188d0c072ee6cb30ac34f7099699
   secret: 9b5af6951560488c
-  user: projectapolloarchive
-  #148889843@N07
-  photoset: 72157658999650280
-  #72157679946334810
+  user: 148889843@N07
+  photoset: 72157678758336144
 
 collections:
   section:
